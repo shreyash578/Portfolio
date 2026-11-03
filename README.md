@@ -22,8 +22,8 @@ This site is prepared for the repository `shreyash578/Portfolio` and will be ava
 `https://shreyash578.github.io/Portfolio/`
 
 1. Keep the project files, `public/` assets, and `.github/workflows/deploy.yml` in the repository.
-2. In the repository, open **Settings > Pages** and set the build and deployment source to **GitHub Actions**.
-3. New pushes to `main` deploy automatically. If the first push ran before Pages was enabled, open **Actions > Deploy portfolio to GitHub Pages > Run workflow** to retry.
+2. The workflow enables GitHub Pages with **GitHub Actions** as its source on the first run. If repository settings prevent automatic enablement, open **Settings > Pages**, choose **GitHub Actions** as the build and deployment source, then rerun the workflow.
+3. New pushes to `main` deploy automatically.
 4. When the workflow finishes, the site is live at the URL above. The workflow builds the site and publishes the resume, `robots.txt`, and sitemap with it.
 
 ## Why it is ATS-friendly
